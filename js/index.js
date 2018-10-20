@@ -6,7 +6,7 @@ const maxNumberBlock = document.querySelector('#max-number span');
 const sumBlock = document.querySelector('#sum span');
 
 
-numbers.addEventListener('change', (e) => {
+numbers.addEventListener('input', (e) => {
 	const arrOfNumbers = [];
 	
 	for(let i = 0; i < inputs.length; i++) {
